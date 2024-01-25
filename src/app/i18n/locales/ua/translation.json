@@ -1,0 +1,9 @@
+{
+  "title": "Привіт!",
+
+  "form__full_name": "Повне Ім'я",
+  "form__phone_number": "Номер телефону",
+  "form__email": "електронна адреса",
+  "form__brief_question": "Коротке питання",
+  "form__submit": "відправити повідомлення"
+}

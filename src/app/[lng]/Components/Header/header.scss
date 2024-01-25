@@ -1,0 +1,23 @@
+.header {
+  height: 80px;
+  background: #001225;
+  display: flex;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 40px;
+  }
+
+  &__link {
+    color: #3e81a7;
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+}

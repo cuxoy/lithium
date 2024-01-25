@@ -1,0 +1,45 @@
+.about__wrapper {
+  position: relative;
+}
+.about {
+  color: #0ff;
+  font-family: var(--font-manrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &__list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 173px;
+    background-color: #bffeff;
+    padding: 16px;
+    top: 52px;
+    left: 0px;
+    border-radius: 0 0 4px 4px;
+  }
+
+  &__link {
+    color: #2e6586;
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

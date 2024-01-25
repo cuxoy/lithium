@@ -1,0 +1,120 @@
+.top {
+  min-height: 1024px;
+  background: #001225;
+  padding-top: 162px;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__giga {
+    color: #0ff;
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 86.07%;
+    padding: 9px 22px;
+    text-transform: uppercase;
+    border: 1.5px solid #0ff;
+    max-width: fit-content;
+    margin-bottom: 63px;
+  }
+
+  &__title {
+    font-family: var(--font-unbounded);
+    font-size: 90px;
+    background: linear-gradient(
+      108deg,
+      #6e78ff -9.44%,
+      #0080ff 10.25%,
+      #54d1d8 35.12%,
+      #0ff 46.84%,
+      #0590fa 64.24%,
+      #0843f7 76.31%,
+      #077bc2 97.9%,
+      rgba(0, 0, 0, 0) 112.51%
+    );
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 49px;
+  }
+
+  &__text {
+    color: #86a0af;
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 428px;
+    margin-bottom: 48px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 16px;
+  }
+
+  &__button {
+    background: linear-gradient(
+      106deg,
+      #174cfa -18.89%,
+      #3b66f8 26.37%,
+      #1b98d5 60.09%,
+      #22edef 97.37%,
+      #589ff5 127.54%,
+      #65c8d0 151.5%
+    );
+    color: #000;
+    font-family: var(--font-unbounded);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 10px;
+    padding: 10px 30px;
+    max-width: fit-content;
+  }
+
+  &__download {
+    position: relative;
+    background: linear-gradient(
+      95deg,
+      #0ff 0%,
+      #0589a5 26.47%,
+      #074d78 46.72%,
+      #22a1dc 65.3%,
+      #0071bc 87.86%,
+      #0c9ffc 108.43%
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: var(--font-unbounded);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border-radius: 10px;
+    padding: 9px 30px;
+    max-width: fit-content;
+    border: 1.5px solid #20d2e7;
+  }
+
+  &__image {
+    transform: translate(-285px, -239px);
+  }
+}
