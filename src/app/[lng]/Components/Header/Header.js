@@ -1,4 +1,5 @@
 import { useTranslation } from "@/app/i18n";
+import Link from "next/link";
 import Container from "../Container/Container";
 import LangSwitcher from "./LangSwitcher/LangSwitcher";
 import About from "./About/About";
@@ -15,7 +16,9 @@ async function Header({ lng }) {
         </div>
         <nav className="header__links">
           <About lng={lng} />
-          <div className="header__link">{t("header__mission")}</div>
+          <div className="header__link">
+            <Link href="#mission_section">{t("header__mission")}</Link>
+          </div>
           <div className="header__link">{t("header__benefits")}</div>
           <div className="header__link">{t("header__team")}</div>
           <div className="header__link">{t("header__news")}</div>

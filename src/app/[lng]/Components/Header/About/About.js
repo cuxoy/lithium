@@ -1,6 +1,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "@/app/i18n/client";
+import Link from "next/link";
 import "./about.scss";
 
 const About = ({ lng }) => {
@@ -37,34 +38,34 @@ const About = ({ lng }) => {
 
   return (
     <div className="about__wrapper" ref={dropdownRef}>
-      <div className="about" onClick={toggleDropdown}>
+      <div className="about_dropdown" onClick={toggleDropdown}>
         {t("header__about")}
       </div>
       {isOpen && (
-        <div className="about__list">
+        <div className="about_dropdown__list">
           <div
-            className="about__link"
+            className="about_dropdown__link"
             onClick={() => {
               setIsOpen(false);
             }}
           >
-            {t("header__about")}
+            <Link href="#about_section">{t("header__about")}</Link>
           </div>
           <div
-            className="about__link"
+            className="about_dropdown__link"
             onClick={() => {
               setIsOpen(false);
             }}
           >
-            {t("about_partnership")}
+            <Link href="#partnership_section"> {t("about_partnership")}</Link>
           </div>
           <div
-            className="about__link"
+            className="about_dropdown__link"
             onClick={() => {
               setIsOpen(false);
             }}
           >
-            {t("about_technology")}
+            <Link href="#technology_section">{t("about_technology")}</Link>
           </div>
         </div>
       )}

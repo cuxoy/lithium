@@ -7,7 +7,7 @@ async function About({ lng }) {
   const { t } = await useTranslation(lng);
 
   return (
-    <section className="about">
+    <section id="about_section" className="about">
       <Container>
         <div className="about__inner">
           <div className="about__content">
@@ -18,7 +18,7 @@ async function About({ lng }) {
               <p className="about__text">{t("about__text_3")}</p>
             </div>
           </div>
-          <div className="top__image">
+          <div className="about__image">
             <img src="/images/about_img_desk.png" alt="about image" />
           </div>
         </div>
@@ -27,4 +27,4 @@ async function About({ lng }) {
   );
 }
 
-export default Top;
+export default About;

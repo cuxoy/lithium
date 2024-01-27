@@ -1,0 +1,135 @@
+.benefits {
+  min-height: 679px;
+  background: #fff;
+  padding-top: 46px;
+
+  &__container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 78px 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__inner {
+    position: relative;
+    display: flex;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      top: -3px;
+      left: 79px;
+      background-image: url("../../../../../public/images/mission_square.jpg");
+      width: 100%;
+      height: 100%;
+      max-width: 658px;
+      max-height: 822px;
+    }
+  }
+
+  &__left {
+    position: relative;
+    background: #133d69;
+    padding: 88px 108px 23px 80px;
+    max-width: 703px;
+    max-height: 920px;
+    transform: translateY(32px);
+    z-index: 1;
+    margin-right: 142px;
+  }
+
+  &__subtitle {
+    color: #0ff;
+    font-family: var(--font-manrope);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+  }
+
+  &__title {
+    color: #fff;
+    font-family: var(--font-unbounded);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+  }
+
+  &__text {
+    font-family: var(--font-manrope);
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 27px;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    max-width: 510px;
+  }
+
+  .benefits__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -25px;
+      left: 0px;
+      background: rgba(19, 61, 105, 0.9);
+      width: 234px;
+      height: 1.5px;
+    }
+
+    &_title {
+      color: #06315f;
+      font-family: var(--font-unbounded);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      margin-bottom: 16px;
+    }
+
+    &:nth-child(2) {
+      .mission__item_title {
+        padding-right: 100px;
+      }
+    }
+
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+
+    &_text {
+      color: #000;
+      font-family: var(--font-manrope);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { useTranslation } from "@/app/i18n";
 import Container from "../Container/Container";
+import Link from "next/link";
 
 import "./top.scss";
 
@@ -26,11 +27,22 @@ async function Top({ lng }) {
             </h2>
             <div className="top__links">
               <div className="top__button">{t("top__button")}</div>
-              <div className="top__download">{t("top__download")}</div>
+              {/* <div className="top__download">{t("top__download")}</div> */}
+              <div className="top__download">
+                {" "}
+                <a
+                  href="/test.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                >
+                  {t("top__download")}
+                </a>
+              </div>
             </div>
           </div>
           <div className="top__image">
-            <img src="/images/top_figure.svg" alt="logo" />
+            <img src="/images/top_figure.png" alt="logo" />
           </div>
         </div>
       </Container>

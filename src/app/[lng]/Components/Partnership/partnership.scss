@@ -1,0 +1,42 @@
+.partnership {
+  min-height: 389px;
+  background: #fff;
+  padding-top: 137px;
+
+  &__inner {
+    display: flex;
+  }
+
+  &__texts {
+    max-width: 503px;
+    margin-right: 155px;
+  }
+
+  &__text {
+    color: #000;
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 23px;
+  }
+
+  &__title {
+    color: #1964b5;
+    font-family: var(--font-unbounded);
+    font-size: 72px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+
+  &__slider {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+  }
+}

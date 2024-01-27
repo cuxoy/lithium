@@ -24,5 +24,40 @@
   "top__text_1": "ULC is a company with a full range of high performance lithium-ion battery  production.",
   "top__text_2": "We are providing solutions for different types of EVs along with heavy-duty applications.",
   "top__button": "Contact us",
-  "top__download": "Download presentation"
+  "top__download": "Download presentation",
+
+  "about__title": "about us",
+  "about__text_1": "ULC is a proactive partner for battery technology providers and advocates the innovation of business processes through mutually fruitful cooperation, positioning the company as the first Giga-scale project in Ukraine",
+  "about__text_2": "ULC aims to develop 50 GWh of capacity to produce scalable modular battery cells through a phased development approach to use strategies based on deep partnership, including licensing of innovative next-generation technologies.",
+  "about__text_3": "Innovations are a core pillar in battery cell manufacturing, along with the R&D of high-performance lithium-ion cells.",
+
+  "partnership__title": "Partnership",
+  "partnership__text_1": "As we do with technology, ULC is proud to cooperate with Ukrainian and globally leading partners to fulfill our ambition as a supplier of clean batteries.",
+  "partnership__text_2": "Building a solid partnership across the local and global supply chain, technology, equipment, production, services, and research is key to creating a robust Global battery ecosystem.",
+  "partnership__text_3": "ULC is backed by a strong group of partners. Major industrial players in the energy and automotive sectors.",
+
+  "technology__title": "our technology",
+  "technology__text_1": "At ULC, we’re developing a <strong>new generation of sustainable, efficient batteries.</strong> Fast-charging, safe and affordable.</br> We are developing sustainable, safer, and very competitive <strong>solid-state battery technology</strong> with the best materials and cells <strong>for electric vehicles, heavy transport, and heavy-duty applications.</strong>",
+  "technology__text_2": "We are establishing a strong <strong>global network of R&D associates, industrial partners, and suppliers</strong> sharing our vision, and we’re gathering some of the best minds to make it happen.</br> It's giving us a firm base, and with the technology and the structure firmly in place, we can concentrate on innovating to develop ever-better products.",
+
+  "mission__subtitle": "who we are",
+  "mission__title": "our mission & strategY",
+  "mission__text_1": "ULC's mission is to meet the demand for battery cells for various EV and heavy-duty applications. Providing effective high-tech solutions to address and meet the needs of the rapidly developing automotive industry.",
+  "mission__text_2": "Our strategy is based on the idea of mutually beneficial cooperation with a global network of leading partners to achieve our ambition as a supplier of efficient and clean battery cells and batteries themselves. ",
+  "mission__text_3": "Creating a full supply chain is an important component of global manufacturing and prosperity, together with the combination of technologies and low-carbon raw materials will make our batteries a clean cycle solution for an environmentally clean world.",
+
+  "mission__item1_title": "Zero Carbon Future",
+  "mission__item1_text_1": "The race to zero is imperative for society, and batteries are core to a successful energy transition. ULC’s ambition is to accelerate the transition to a zero-carbon future in Ukraine. ",
+  "mission__item1_text_2": "We are fully committed to helping Ukraine reach a net-zero future, upskilling along the way. Furthermore, we aim to be as low carbon as possible, reimagining supply chains as we progress.",
+
+  "mission__item2_title": "The first 50 GWh Gigafactory in Ukraine",
+  "mission__item2_text_1": "We are planning to build the first 50 GWh Gigafactory in Ukraine. Thus, moving to a low-carbon future will bring with it huge opportunities. ",
+  "mission__item2_text_2": "ULC intends to empower everyone that it interacts with, directly or via the associated supply chain. Value added, carbon reduced, and free-emission transport.",
+
+  "mission__item3_title": "Ukraine mineral reserves opportunities",
+  "mission__item3_text_1": "Unleashing the Ukrainian supply chain based on green energy, emission-free transport, and logistics solutions with leading principles of circular economy in production, will lead to large-scale green energy solutions application. ",
+  "mission__item3_text_2": "The raw materials base of Ukraine is able to meet the needs of the national industry as well as to facilitate its export potential, and the development of resilient value chains of critical minerals.",
+
+  "mission__item4_title": "Create full production chain",
+  "mission__item4_text_1": "<b>Create as many enterprises</b> as possible that will work in the production chain, from ore mining, ore processing, obtaining carbonates, hydroxide or chloride lithium at hydro metallurgical enterprises to electrochemical production, when  anodes and cathodes are producing, and production of lithium-ion accumulators."
 }
