@@ -7,7 +7,7 @@ async function Technology({ lng }) {
 
   return (
     <section id="mission_section" className="mission">
-      <div className="mission__contsiner">
+      <div className="mission__container">
         <div className="mission__inner">
           <div className="mission__left">
             <div className="mission__subtitle">{t("mission__subtitle")}</div>

@@ -8,6 +8,7 @@ import Technology from "./Components/Technology/Technology";
 import Partnership from "./Components/Partnership/Partnership";
 import Mission from "./Components/Mission/Mission";
 import Benefits from "./Components/Benefits/Benefits";
+import Team from "./Components/Team/Team";
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng);
@@ -20,6 +21,7 @@ export default async function Page({ params: { lng } }) {
       <Technology lng={lng} />
       <Mission lng={lng} />
       <Benefits lng={lng} />
+      <Team lng={lng} />
       <Form lng={lng} />
     </>
   );

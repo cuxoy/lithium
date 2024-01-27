@@ -21,10 +21,7 @@ async function Benefits({ lng }) {
                 {t("benefits__item1_title")}
               </div>
               <div className="benefits__item_text">
-                {t("benefits__item1_text_1")}
-              </div>
-              <div className="benefits__item_text">
-                {t("benefits__item1_text_2")}
+                {t("benefits__item1_text")}
               </div>
             </div>
             <div className="benefits__item">
@@ -32,10 +29,7 @@ async function Benefits({ lng }) {
                 {t("benefits__item2_title")}
               </div>
               <div className="benefits__item_text">
-                {t("benefits__item2_text_1")}
-              </div>
-              <div className="benefits__item_text">
-                {t("benefits__item2_text_2")}
+                {t("benefits__item2_text")}
               </div>
             </div>
             <div className="benefits__item">
@@ -43,22 +37,24 @@ async function Benefits({ lng }) {
                 {t("benefits__item3_title")}
               </div>
               <div className="benefits__item_text">
-                {t("benefits__item3_text_1")}
-              </div>
-              <div className="benefits__item_text">
-                {t("benefits__item3_text_2")}
+                {t("benefits__item3_text")}
               </div>
             </div>
             <div className="benefits__item">
               <div className="benefits__item_title">
                 {t("benefits__item4_title")}
               </div>
-              <div
-                className="benefits__item_text"
-                dangerouslySetInnerHTML={{
-                  __html: t("benefits__item4_text_1"),
-                }}
-              />
+              <div className="benefits__item_text">
+                {t("benefits__item4_text")}
+              </div>
+            </div>
+            <div className="benefits__item">
+              <div className="benefits__item_title">
+                {t("benefits__item5_title")}
+              </div>
+              <div className="benefits__item_text">
+                {t("benefits__item5_text")}
+              </div>
             </div>
           </div>
         </div>

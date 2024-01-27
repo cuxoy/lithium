@@ -19,7 +19,9 @@ async function Header({ lng }) {
           <div className="header__link">
             <Link href="#mission_section">{t("header__mission")}</Link>
           </div>
-          <div className="header__link">{t("header__benefits")}</div>
+          <div className="header__link">
+            <Link href="#mission_section">{t("header__benefits")}</Link>
+          </div>
           <div className="header__link">{t("header__team")}</div>
           <div className="header__link">{t("header__news")}</div>
           <div className="header__link">{t("header__contacts")}</div>

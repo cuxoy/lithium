@@ -59,5 +59,38 @@
   "mission__item3_text_2": "The raw materials base of Ukraine is able to meet the needs of the national industry as well as to facilitate its export potential, and the development of resilient value chains of critical minerals.",
 
   "mission__item4_title": "Create full production chain",
-  "mission__item4_text_1": "<b>Create as many enterprises</b> as possible that will work in the production chain, from ore mining, ore processing, obtaining carbonates, hydroxide or chloride lithium at hydro metallurgical enterprises to electrochemical production, when  anodes and cathodes are producing, and production of lithium-ion accumulators."
+  "mission__item4_text_1": "<b>Create as many enterprises</b> as possible that will work in the production chain, from ore mining, ore processing, obtaining carbonates, hydroxide or chloride lithium at hydro metallurgical enterprises to electrochemical production, when  anodes and cathodes are producing, and production of lithium-ion accumulators.",
+
+  "benefits__subtitle": "why we are",
+  "benefits__title": "our benefits",
+  "benefits__text_1": "Starting in 2021 tax and customs incentives are available for the producers of eco-transport and its components in Ukraine.",
+  "benefits__text_2": "Available resources and prospects for the production of critical raw materials in Ukraine, as well as their integration into global value chains, will support the development of an open strategic relationship, therefore will help to develop the minerals supply chain.",
+
+  "benefits__item1_title": "CIT exemption",
+  "benefits__item1_text": "Temporary CIT exemption* (till 2036) for legal entities that conduct solely business activity of production and sale of electric motors, lithium-ion (lithium-polymeric) batteries, their charging devices, and electric transport",
+  "benefits__item2_title": "VAT exemption",
+  "benefits__item2_text": "Temporary VAT exemption (till 2026) for import and sale on the territory of Ukraine of electric and transport that uses gas or biogas",
+  "benefits__item3_title": "Customs Duty Exemption",
+  "benefits__item3_text": "Temporary VAT and customs duty exemption (till 2031) for importing goods by the legal entities that conduct or plan to create/modernize their production for industrial production of electric vehicles",
+  "benefits__item4_title": "Open Door Policy",
+  "benefits__item4_text": "Ukrainian Government announced the Open door policy for foreign investors",
+  "benefits__item5_title": "Inexpensive Resources",
+  "benefits__item5_text": "Ukraine is among the top 10 producing countries for several mineral raw materials, which surplus is exported.",
+
+  "team__title": "our team",
+  "team__item_1_name": "Anastasia Taran",
+  "team__item_1_position": "Cofounder & Director",
+  "team__item_1_text": "Specialist in the field of industrial design and construction of production equipment",
+
+  "team__item_2_name": "Artem Taran",
+  "team__item_2_position": "Founder & CEO",
+  "team__item_2_text": "Mining Mechanics Specialist, mining equipment maintenance and repair consultant (mining industry)",
+
+  "team__item_3_name": "Mykola Aliev",
+  "team__item_3_position": "Cofounder & CDO",
+  "team__item_3_text": "Mining engineer and professional consultant with extensive technical experience in the energy industries of Ukraine (oil and gas projects)",
+
+  "team__item_4_name": "Olexander Trikoz",
+  "team__item_4_position": "Cofounder & CFO",
+  "team__item_4_text": "Specialist in the areas of finance, planning, and economic development"
 }
