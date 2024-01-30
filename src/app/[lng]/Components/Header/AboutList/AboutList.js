@@ -2,9 +2,9 @@
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "@/app/i18n/client";
 import Link from "next/link";
-import "./about.scss";
+import "./aboutList.scss";
 
-const About = ({ lng }) => {
+const AboutList = ({ lng }) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -73,4 +73,4 @@ const About = ({ lng }) => {
   );
 };
 
-export default About;
+export default AboutList;

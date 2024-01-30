@@ -92,5 +92,26 @@
 
   "team__item_4_name": "Olexander Trikoz",
   "team__item_4_position": "Cofounder & CFO",
-  "team__item_4_text": "Specialist in the areas of finance, planning, and economic development"
+  "team__item_4_text": "Specialist in the areas of finance, planning, and economic development",
+
+  "newsList__title": "latest News",
+  "newsList__item_1_date": "15 January 2023  |   event",
+  "newsList__item_1_title": "Ukrainian Lithium Corporation is thrilled to share about submitting an application to \"Rebuilding Ukraine with the Private Sector: International Investment Fair\" of UkraineInvest",
+
+  "newsList__item_2_date": "28 september 2022  |   article",
+  "newsList__item_2_title": "Ukrainian Lithium Corporation is thrilled to share about submitting an application to \"Rebuilding Ukraine with the Private Sector: International Investment Fair\"  of UkraineInvest",
+
+  "newsList__item_3_date": "15 july 2022  |   event",
+  "newsList__item_3_title": "Ukrainian Lithium Corporation is thrilled to share about submitting an application to \"Rebuilding Ukraine with the Private Sector: International Investment Fair\" of UkraineInvest",
+
+  "contacts__subtitle": "need more information?",
+  "contacts__title": "contact us",
+  "contacts__text_1": "<strong>ULC</strong> is looking for and open for cooperation with global and local leading partners to achieve our ambition as a supplier of efficient and clean battery cells and batteries elements solutions.",
+  "contacts__text_2": "Please, if you are interested in this project or have any questions, <b>get in touch with us.</b> ",
+  "contacts__item_1_name": "ARTEM TARAN ",
+  "contacts__item_1_position": "Founder and CEO",
+  "contacts__item_1_mail": "info@ulicor.com",
+  "contacts__item_2_name": "MYKOLA ALIYEV",
+  "contacts__item_2_position": "Cofounder and Chief Development Officer",
+  "contacts__item_2_mail": "nikolaialiev@gmail.com"
 }

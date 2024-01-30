@@ -2,13 +2,14 @@ import { useTranslation } from "../i18n";
 
 import Header from "./Components/Header/Header";
 import Top from "./Components/Top/Top";
-import Form from "./Components/Form/Form";
 import About from "./Components/About/About";
 import Technology from "./Components/Technology/Technology";
 import Partnership from "./Components/Partnership/Partnership";
 import Mission from "./Components/Mission/Mission";
 import Benefits from "./Components/Benefits/Benefits";
 import Team from "./Components/Team/Team";
+import NewsList from "./Components/NewsList/NewsList";
+import Contacts from "./Components/Contacts/Contacts";
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng);
@@ -22,7 +23,8 @@ export default async function Page({ params: { lng } }) {
       <Mission lng={lng} />
       <Benefits lng={lng} />
       <Team lng={lng} />
-      <Form lng={lng} />
+      <NewsList lng={lng} />
+      <Contacts lng={lng} />
     </>
   );
 }
