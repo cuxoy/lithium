@@ -128,3 +128,126 @@
     transform: translate(-174px, -57px);
   }
 }
+.separator {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .top {
+    position: relative;
+    min-height: 578px;
+    padding-top: 32px;
+    overflow: hidden;
+
+    &__giga {
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+
+    &__title {
+      font-size: 64px;
+      margin-bottom: 31px;
+      position: relative;
+      z-index: 3;
+    }
+
+    &__text {
+      margin-bottom: 40px;
+    }
+
+    &__links {
+      position: relative;
+      z-index: 2;
+    }
+
+    &__button {
+      &:hover {
+        box-shadow: 0 0 20px #0ff;
+      }
+    }
+
+    &__download {
+      position: relative;
+    }
+
+    &__image {
+      position: absolute;
+      width: 990px;
+      height: 1100px;
+      top: -517px;
+      right: calc(50% - 735px);
+      z-index: 0;
+
+      img {
+        display: none;
+      }
+      background-image: url("../../../../../public/images/figure_tab.svg");
+      transform: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .top {
+    position: relative;
+    min-height: 553px;
+    padding-top: 24px;
+    overflow: hidden;
+
+    &__giga {
+      font-size: 14px;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 2;
+    }
+
+    &__title {
+      font-size: 32px;
+      line-height: 122%;
+      margin-bottom: 27px;
+      position: relative;
+      z-index: 3;
+    }
+
+    &__text {
+      color: #94bed7;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+    }
+
+    &__links {
+      position: relative;
+      z-index: 2;
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: flex-start;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      width: 100%;
+      &:hover {
+        box-shadow: 0 0 20px #0ff;
+      }
+    }
+
+    &__download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      width: 100%;
+      position: relative;
+    }
+  }
+
+  .separator {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

@@ -23,6 +23,7 @@ async function Top({ lng }) {
             <h2 className="top__text">
               {t("top__text_1")}
               <br />
+              <div className="separator" />
               {t("top__text_2")}
             </h2>
             <div className="top__links">

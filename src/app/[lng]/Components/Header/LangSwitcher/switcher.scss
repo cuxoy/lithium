@@ -13,6 +13,10 @@
     &:hover {
       text-decoration: underline;
     }
+
+    @media (max-width: 767px) {
+      color: #227dff;
+    }
   }
   .other-langs {
     position: absolute;
@@ -32,5 +36,12 @@
     background-color: #bffeff;
     padding: 10px;
     border-radius: 0 0 4px 4px;
+    z-index: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .lang {
+    color: #227dff;
   }
 }

@@ -1,12 +1,19 @@
-import { useTranslation } from "@/app/i18n";
+"use client";
+// import { useTranslation } from "@/app/i18n";
+import { useTranslation } from "@/app/i18n/client";
 import Link from "next/link";
 import Container from "../Container/Container";
 import LangSwitcher from "./LangSwitcher/LangSwitcher";
 import AboutList from "./AboutList/AboutList";
+import Hamburger from "./Hamburger/Hamburger";
+import useWindowSize from "../../../hooks/useWindowSize";
+
 import "./header.scss";
 
-async function Header({ lng }) {
-  const { t } = await useTranslation(lng);
+function Header({ lng }) {
+  const { t } = useTranslation(lng);
+
+  const { width } = useWindowSize();
 
   return (
     <header className="header">
@@ -15,7 +22,8 @@ async function Header({ lng }) {
           <img src="/images/logo.svg" alt="logo" className="header__logo" />
         </div>
         <nav className="header__links">
-          <AboutList lng={lng} />
+          {width < 1440 ? <Hamburger lng={lng} /> : <AboutList lng={lng} />}
+
           <div className="header__link">
             <Link href="#mission_section">{t("header__mission")}</Link>
           </div>

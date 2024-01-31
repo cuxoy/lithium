@@ -25,3 +25,23 @@
     }
   }
 }
+
+@media (max-width: 1439px) {
+  .header {
+    &__link {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 55px;
+
+    &__logo_text {
+      img {
+        max-width: 43px;
+      }
+    }
+  }
+}

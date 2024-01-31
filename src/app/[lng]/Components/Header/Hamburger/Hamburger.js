@@ -2,13 +2,13 @@
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "@/app/i18n/client";
 import Link from "next/link";
-import "./aboutList.scss";
+import "./hamburger.scss";
 
-const AboutList = ({ lng }) => {
+const Hamburger = ({ lng }) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  const { t } = useTranslation(lng);
+  const { t } = useTranslation(lng, "footer");
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -37,14 +37,16 @@ const AboutList = ({ lng }) => {
   }, [isOpen]);
 
   return (
-    <div className="about__wrapper" ref={dropdownRef}>
-      <div className="about_dropdown" onClick={toggleDropdown}>
-        {t("header__about")}
+    <div className="hamburger__wrapper" ref={dropdownRef}>
+      <div className="hamburger_dropdown" onClick={toggleDropdown}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
       </div>
       {isOpen && (
-        <div className="about_dropdown__list">
+        <div className="hamburger_dropdown__list">
           <div
-            className="about_dropdown__link"
+            className="hamburger_dropdown__link"
             onClick={() => {
               setIsOpen(false);
             }}
@@ -67,10 +69,51 @@ const AboutList = ({ lng }) => {
           >
             <Link href="#technology_section">{t("about_technology")}</Link>
           </div>
+
+          <div
+            className="about_dropdown__link"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <Link href="#mission_section">{t("header__mission")}</Link>
+          </div>
+          <div
+            className="about_dropdown__link"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <Link href="#benefits_section">{t("header__benefits")}</Link>
+          </div>
+          <div
+            className="about_dropdown__link"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <Link href="#team_section">{t("header__team")}</Link>
+          </div>
+          <div
+            className="about_dropdown__link"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <Link href="#newsList_section">{t("header__news")}</Link>
+          </div>
+          <div
+            className="about_dropdown__link"
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <Link href="#contacts_section">{t("header__contacts")}</Link>
+          </div>
         </div>
       )}
     </div>
   );
 };
 
-export default AboutList;
+export default Hamburger;
