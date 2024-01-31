@@ -1,12 +1,4 @@
 {
-  "title": "Hi there!",
-
-  "form__full_name": "Full name",
-  "form__phone_number": "Phone number",
-  "form__email": "Email Address",
-  "form__brief_question": "Brief Question",
-  "form__submit": "Send Message",
-
   "header__about": "about us",
   "about_partnership": "PARTNERSHIP",
   "about_technology": "OUR TECHNOLOGY",
@@ -133,5 +125,20 @@
   "footer__benefits_link": "benefits",
   "footer__team_link": "team",
   "footer__news_link": "News",
-  "footer__contacts_link": "contact us"
+  "footer__contacts_link": "contact us",
+
+  "form__name": "Full name",
+  "form__phone": "Phone Number:",
+  "form__email": "Email:",
+  "form__message": "Message:",
+  "form__btn": "Send Message",
+  "form__pop-up": " Thank you ! <br /> We will contact you shortly",
+
+  "form__name_validation_1": "Name must be at least 3 characters.",
+  "form__name_validation_2": "Name can only contain letters and spaces.",
+  "form__phone_validation_1": "Phone number is required.",
+  "form__phone_validation_2": "Phone number can only contain numbers and special characters.",
+  "form__email_validation_1": "Email is required.",
+  "form__email_validation_2": "Please enter a valid email address.",
+  "form__message_validation": "Message must be at least 3 characters."
 }

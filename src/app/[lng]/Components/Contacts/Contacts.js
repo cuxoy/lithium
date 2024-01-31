@@ -58,7 +58,7 @@ async function Contacts({ lng }) {
             </div>
           </div>
           <div className="contacts__right">
-            <Form />
+            <Form lng={lng} />
           </div>
         </div>
       </div>

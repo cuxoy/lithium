@@ -1,12 +1,4 @@
 {
-  "title": "Привіт!",
-
-  "form__full_name": "Повне ім'я",
-  "form__phone_number": "Номер телефону",
-  "form__email": "Адреса електронної пошти",
-  "form__brief_question": "Коротке питання",
-  "form__submit": "Надіслати повідомлення",
-
   "header__about": "про нас",
   "about_partnership": "ПАРТНЕРСТВО",
   "about_technology": "НАША ТЕХНОЛОГІЯ",
@@ -133,5 +125,20 @@
   "footer__benefits_link": "переваги",
   "footer__team_link": "команда",
   "footer__news_link": "новини",
-  "footer__contacts_link": "зв'яжіться з нами"
+  "footer__contacts_link": "зв'яжіться з нами",
+
+  "form__name": "Повне ім'я",
+  "form__phone": "Номер телефону:",
+  "form__email": "Електронна пошта:",
+  "form__message": "Повідомлення:",
+  "form__btn": "Відправити повідомлення",
+  "form__pop-up": " Дякуємо! <br /> Ми з вами зв'яжемося найближчим часом",
+
+  "form__name_validation_1": "Ім'я повинно містити принаймні 3 символи.",
+  "form__name_validation_2": "Ім'я може містити лише букви та пробіли.",
+  "form__phone_validation_1": "Потрібен номер телефону.",
+  "form__phone_validation_2": "Номер телефону може містити лише цифри та спеціальні символи.",
+  "form__email_validation_1": "Потрібна електронна пошта.",
+  "form__email_validation_2": "Будь ласка, введіть дійсну адресу електронної пошти.",
+  "form__message_validation": "Повідомлення повинно містити принаймні 3 символи."
 }
