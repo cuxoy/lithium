@@ -10,6 +10,7 @@ import Benefits from "./Components/Benefits/Benefits";
 import Team from "./Components/Team/Team";
 import NewsList from "./Components/NewsList/NewsList";
 import Contacts from "./Components/Contacts/Contacts";
+import Footer from "./Components/Footer/Footer";
 
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng);
@@ -25,6 +26,7 @@ export default async function Page({ params: { lng } }) {
       <Team lng={lng} />
       <NewsList lng={lng} />
       <Contacts lng={lng} />
+      <Footer lng={lng} />
     </>
   );
 }

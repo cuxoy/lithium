@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  background: #001225;
+  padding: 116px 0px;
+
+  &__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 78px;
+  }
+
+  &__title {
+    position: relative;
+    color: #fff;
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: -4px;
+      width: 298px;
+      height: 1.5px;
+      background: #fff;
+    }
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__policy {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &_item {
+      color: #fff;
+      font-family: var(--font-manrope);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-left: 155px;
+
+    &_item {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      &_title {
+        color: #fff;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+      }
+      &_text {
+        color: #fff;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-right: 64px;
+
+    &_link {
+      position: relative;
+      color: #fff;
+      font-family: var(--font-manrope);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      text-transform: uppercase;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: -4px;
+        width: 187px;
+        height: 1.5px;
+        background: #fff;
+      }
+    }
+  }
+}

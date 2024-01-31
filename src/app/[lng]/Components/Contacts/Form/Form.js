@@ -213,6 +213,7 @@ const Form = () => {
   }, [popUp]);
 
   const validateName = (value) => {
+    // const regex = /^[a-zA-Zа-яА-Я\s]+$/;
     const regex = /^[a-zA-Zа-яА-Я\s]+$/;
     if (value.length < 3) {
       return "Name must be at least 3 characters.";
@@ -268,7 +269,6 @@ const Form = () => {
     return !(nameError || phoneError || emailError || messageError);
   };
 
-  // Обновляем ошибки при изменении значений полей
   useEffect(() => {
     const validateAndSetError = (validator, value, key) => {
       const error = validator(value);
@@ -282,7 +282,7 @@ const Form = () => {
   }, [name, phone, email, message]);
 
   const handleSubmit = async (e) => {
-    const endpoint = "https://test/test";
+    const endpoint = "https://formspree.io/f/myyrkybe";
     e.preventDefault();
     setSubmitAttempted(true);
 
@@ -353,7 +353,7 @@ const Form = () => {
           <label>
             Message:
             <textarea
-              maxlength="400"
+              maxLength="400"
               className="text-aria"
               value={message}
               onChange={(e) => setMessage(e.target.value)}

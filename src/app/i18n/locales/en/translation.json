@@ -113,5 +113,25 @@
   "contacts__item_1_mail": "info@ulicor.com",
   "contacts__item_2_name": "MYKOLA ALIYEV",
   "contacts__item_2_position": "Cofounder and Chief Development Officer",
-  "contacts__item_2_mail": "nikolaialiev@gmail.com"
+  "contacts__item_2_mail": "nikolaialiev@gmail.com",
+
+  "footer__title": "ukrainiaN lithium corporation",
+  "footer__policy_legal": "Legal Notice",
+  "footer__policy_privacy": "Privacy Policy",
+  "footer__policy_cookies": "Cookies Policy",
+
+  "footer__contacts_title_phone": "Phone",
+  "footer__contacts_phone": "+41767429746",
+  "footer__contacts_title_mail": "Email",
+  "footer__contacts_mail": "info@ulicor.com",
+  "footer__contacts_title_adress": "Address",
+  "footer__contacts_adress": "Mechnikova 4/1, 19-А, Kyiv, 01133, UA",
+
+  "footer__about_link": "about US",
+  "footer__partnership_link": "partnership",
+  "footer__technology_link": "our technology",
+  "footer__benefits_link": "benefits",
+  "footer__team_link": "team",
+  "footer__news_link": "News",
+  "footer__contacts_link": "contact us"
 }

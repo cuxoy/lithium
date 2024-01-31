@@ -26,10 +26,11 @@ async function Top({ lng }) {
               {t("top__text_2")}
             </h2>
             <div className="top__links">
-              <div className="top__button">{t("top__button")}</div>
-              {/* <div className="top__download">{t("top__download")}</div> */}
+              <div className="top__button">
+                <Link href="#contacts_section">{t("top__button")}</Link>
+              </div>
+
               <div className="top__download">
-                {" "}
                 <a
                   href="/test.pdf"
                   target="_blank"
