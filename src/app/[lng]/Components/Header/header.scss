@@ -19,5 +19,9 @@
     font-weight: 500;
     line-height: 150%;
     text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
