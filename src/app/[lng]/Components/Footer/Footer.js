@@ -11,7 +11,7 @@ async function Contacts({ lng }) {
       <div className="footer__container">
         <div className="footer__title">{t("footer__title")}</div>
         <div className="footer__inner">
-          <div className="footer__policy">
+          <div className="footer__policy no-mobile">
             <div className="footer__policy_item">
               {t("footer__policy_legal")}
             </div>
@@ -78,10 +78,20 @@ async function Contacts({ lng }) {
             </div>
           </nav>
         </div>
+
         <div className="footer__social">
           <Link href="https://www.linkedin.com/company/ulicor/">
             <img src="/images/social.png" alt="social image" />
           </Link>
+        </div>
+        <div className="footer__policy mobile-only">
+          <div className="footer__policy_item">{t("footer__policy_legal")}</div>
+          <div className="footer__policy_item">
+            {t("footer__policy_privacy")}
+          </div>
+          <div className="footer__policy_item">
+            {t("footer__policy_cookies")}
+          </div>
         </div>
       </div>
     </section>

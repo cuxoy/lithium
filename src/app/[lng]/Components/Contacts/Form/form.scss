@@ -89,3 +89,15 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .form {
+    width: auto;
+    label {
+      color: #fff;
+    }
+    .error {
+      font-size: 12px;
+    }
+  }
+}

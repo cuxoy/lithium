@@ -256,3 +256,110 @@
     }
   }
 }
+
+@media (max-width: 1439px) {
+  .contacts {
+    min-height: 679px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__container {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__inner {
+      flex-direction: column;
+      background: none;
+    }
+
+    &__left {
+      padding: 29px 18px 54px 17px;
+      max-width: 100%;
+      max-height: 100%;
+      background: #e1f5fd;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-family: var(--font-manrope);
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 32px;
+      padding-right: 45px;
+    }
+
+    &__right {
+      padding: 88px 15px 84px 15px;
+    }
+
+    &__data {
+      position: relative;
+      display: flex;
+      margin-bottom: 42px;
+      padding-top: 49px;
+      row-gap: 33px;
+      flex-direction: column;
+
+      &::before {
+        display: none;
+      }
+    }
+    &__item {
+      &_name {
+        color: #0f5cae;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        margin-bottom: 3px;
+      }
+
+      &_position {
+        color: #000;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 9px;
+      }
+
+      &_mail {
+        color: #000;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+      }
+    }
+
+    &__social {
+      color: #3e81a7;
+      font-family: var(--font-manrope);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 160%;
+      text-decoration-line: underline;
+      word-break: break-all;
+    }
+  }
+}

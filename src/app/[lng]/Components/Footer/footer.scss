@@ -110,3 +110,48 @@
     }
   }
 }
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .footer {
+    &__contacts {
+      padding-left: 0;
+      max-width: 200px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    &__contacts {
+      padding-left: 0;
+      max-width: 200px;
+    }
+
+    &__container {
+      padding: 0 15px;
+    }
+
+    &__policy {
+      flex-direction: row;
+      gap: 18px;
+    }
+
+    &__inner {
+      gap: 42px;
+      margin-bottom: 29px;
+    }
+    &__social {
+      margin-bottom: 50px;
+    }
+  }
+  .mobile-only {
+    display: flex;
+  }
+  .no-mobile {
+    display: none;
+  }
+}
