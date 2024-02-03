@@ -148,6 +148,23 @@
       }
     }
   }
+
+  .team__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team__item {
+    flex: 0 0 calc(50% - 50px);
+    max-width: calc(50% - 50px);
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .team__item_text {
+    max-width: 212px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
