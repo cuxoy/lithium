@@ -1,6 +1,7 @@
 import { useTranslation } from "@/app/i18n";
 import Link from "next/link";
 import Container from "../Container/Container";
+import Slider from "./Slider";
 
 import "./newsList.scss";
 
@@ -12,7 +13,7 @@ async function NewsList({ lng }) {
       <Container>
         <div id="newsList_section" className="newsList__inner">
           <h3 className="newsList__title">{t("newsList__title")}</h3>
-          <div className="newsList__list">
+          <div className="newsList__list no-mobile">
             <div className="newsList__item">
               <div className="newsList__item_photo">
                 <img src="/images/news_photo_1.png" alt="news image 1" />
@@ -58,6 +59,9 @@ async function NewsList({ lng }) {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="news__slider">
+            <Slider lng={lng} />
           </div>
         </div>
       </Container>

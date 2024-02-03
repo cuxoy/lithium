@@ -12,6 +12,12 @@ async function Technology({ lng }) {
         <div className="technology__inner">
           <div className="technology__content">
             <h3 className="technology__title">{t("technology__title")}</h3>
+            <div className="technology__image no-desktop">
+              <img
+                src="/images/technology_img_desk.png"
+                alt="technology image"
+              />
+            </div>
             <div className="technology__texts">
               <p
                 className="technology__text"
@@ -23,7 +29,7 @@ async function Technology({ lng }) {
               />
             </div>
           </div>
-          <div className="technology__image">
+          <div className="technology__image desktop-only">
             <img src="/images/technology_img_desk.png" alt="technology image" />
           </div>
         </div>

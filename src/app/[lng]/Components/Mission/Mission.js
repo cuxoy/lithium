@@ -1,4 +1,5 @@
 import { useTranslation } from "@/app/i18n";
+import Slider from "./Slider";
 
 import "./mission.scss";
 
@@ -60,6 +61,9 @@ async function Technology({ lng }) {
               />
             </div>
           </div>
+        </div>
+        <div className="mission__slider">
+          <Slider lng={lng} />
         </div>
       </div>
     </section>

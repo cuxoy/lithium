@@ -1,5 +1,6 @@
 import { useTranslation } from "@/app/i18n";
 import Container from "../Container/Container";
+import Slider from "./Slider";
 
 import "./team.scss";
 
@@ -11,7 +12,7 @@ async function Team({ lng }) {
       <Container>
         <div id="team_section" className="team__inner">
           <h3 className="team__title">{t("team__title")}</h3>
-          <div className="team__list">
+          <div className="team__list no-mobile">
             <div className="team__item">
               <div className="team__item_photo">
                 <img src="/images/team_photo_1.jpg" alt="team member photo" />
@@ -52,6 +53,9 @@ async function Team({ lng }) {
               </div>
               <div className="team__item_text">{t("team__item_4_text")}</div>
             </div>
+          </div>
+          <div className="team__slider">
+            <Slider lng={lng} />
           </div>
         </div>
       </Container>

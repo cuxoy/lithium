@@ -14,12 +14,18 @@ export default function Slider() {
   return (
     <>
       <Swiper
-        slidesPerView={2.99}
-        spaceBetween={120}
+        slidesPerView={2}
+        spaceBetween={20}
         pagination={{
           clickable: true,
           dynamicBullets: true,
           dynamicMainBullets: 1,
+        }}
+        breakpoints={{
+          400: {
+            slidesPerView: 3,
+            spaceBetween: 120,
+          },
         }}
         loop
         centeredSlides

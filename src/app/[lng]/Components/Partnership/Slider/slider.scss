@@ -22,6 +22,26 @@
 .swiper-slide img {
   display: block;
   width: 137px;
+  height: 64px !important;
   height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 1439px) {
+  .swiper {
+    max-width: 85vw;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper {
+    max-width: 85vw;
+    margin-bottom: 24px;
+  }
+
+  .swiper-slide img {
+    width: 98px;
+    height: 59px !important;
+  }
 }

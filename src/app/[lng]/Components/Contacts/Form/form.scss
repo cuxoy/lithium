@@ -81,3 +81,11 @@
     box-shadow: 0 0 20px #0ff;
   }
 }
+
+@media (max-width: 1439px) {
+  .form {
+    label {
+      color: #fff;
+    }
+  }
+}

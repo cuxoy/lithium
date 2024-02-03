@@ -73,3 +73,164 @@
     }
   }
 }
+
+.team__slider {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .team {
+    min-height: 679px;
+    background: url(../../../../../public/images/team-news_noise.png);
+    padding-top: 72px;
+
+    &__inner {
+      border: 2px solid #0d5fb0;
+      height: 100%;
+      width: 100%;
+      padding: 66px 52px;
+    }
+
+    &__list {
+      column-gap: 58px;
+      row-gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__title {
+      font-size: 64px;
+      margin-bottom: 56px;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      max-width: 210px;
+
+      &_photo {
+        margin-bottom: 20px;
+
+        img {
+          width: 210px;
+          height: 269px;
+        }
+      }
+
+      &_name {
+        color: #0f5cae;
+        font-family: var(--font-unbounded);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: capitalize;
+      }
+
+      &_position {
+        color: #0f5cae;
+        font-family: var(--font-unbounded);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+      }
+
+      &_text {
+        color: #000;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .team {
+    min-height: 679px;
+    background: url(../../../../../public/images/team-news_noise.png);
+    padding-top: 72px;
+
+    &__inner {
+      padding: 51px 5px 10px;
+    }
+
+    &__list {
+      column-gap: 17%;
+      row-gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__title {
+      font-size: 33px;
+      padding: 0 65px;
+      margin-bottom: -2px;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      max-width: 186px;
+
+      &_photo {
+        margin-bottom: -35px;
+
+        img {
+          width: 137px;
+          height: 269px !important;
+          margin: 0 auto;
+        }
+      }
+
+      &_name {
+        color: #0f5cae;
+        font-family: var(--font-unbounded);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: capitalize;
+      }
+
+      &_position {
+        color: #0f5cae;
+        font-family: var(--font-unbounded);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+      }
+
+      &_text {
+        color: #000;
+        font-family: var(--font-manrope);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+
+    .swiper {
+      max-height: 100%;
+      background: none;
+    }
+    .swiper-slide {
+      background: none;
+    }
+  }
+  .no-mobile {
+    display: none;
+  }
+  .team__slider {
+    display: block;
+  }
+}
