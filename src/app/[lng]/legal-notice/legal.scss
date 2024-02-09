@@ -1,0 +1,37 @@
+.legal {
+  position: relative;
+  min-height: 679px;
+  padding-top: 140px;
+  padding-bottom: 119px;
+  color: #000;
+  font-size: 40px;
+
+  .back {
+    font-family: var(--font-manrope);
+    color: #fff;
+    font-size: 28px;
+    padding: 10px;
+    background: #33729b;
+    border: 1px solid #33729b;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background: #104160;
+    }
+  }
+}
+
+@media (max-width: 1439px) {
+  .legal {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .legal {
+    font-size: 20px;
+  }
+}

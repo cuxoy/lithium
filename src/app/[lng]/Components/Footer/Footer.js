@@ -13,13 +13,19 @@ async function Contacts({ lng }) {
         <div className="footer__inner">
           <div className="footer__policy no-mobile">
             <div className="footer__policy_item">
-              {t("footer__policy_legal")}
+              <Link href={`/${lng}/legal-notice`}>
+                {t("footer__policy_legal")}
+              </Link>
             </div>
             <div className="footer__policy_item">
-              {t("footer__policy_privacy")}
+              <Link href={`/${lng}/privacy-policy`}>
+                {t("footer__policy_privacy")}
+              </Link>
             </div>
             <div className="footer__policy_item">
-              {t("footer__policy_cookies")}
+              <Link href={`/${lng}/cookies-policy`}>
+                {t("footer__policy_cookies")}
+              </Link>
             </div>
           </div>
           <adress className="footer__contacts">
@@ -68,10 +74,10 @@ async function Contacts({ lng }) {
               <Link href="#benefits_section">{t("footer__benefits_link")}</Link>
             </div>
             <div className="footer__links_link">
-              <Link href="#tem_section">{t("footer__team_link")}</Link>
+              <Link href="#team_section">{t("footer__team_link")}</Link>
             </div>
             <div className="footer__links_link">
-              <Link href="#news_section">{t("footer__news_link")}</Link>
+              <Link href="#newsList_section">{t("footer__news_link")}</Link>
             </div>
             <div className="footer__links_link">
               <Link href="#contacts_section">{t("footer__contacts_link")}</Link>
@@ -85,12 +91,20 @@ async function Contacts({ lng }) {
           </Link>
         </div>
         <div className="footer__policy mobile-only">
-          <div className="footer__policy_item">{t("footer__policy_legal")}</div>
           <div className="footer__policy_item">
-            {t("footer__policy_privacy")}
+            <Link href={`/${lng}/legal-notice`}>
+              {t("footer__policy_legal")}
+            </Link>
           </div>
           <div className="footer__policy_item">
-            {t("footer__policy_cookies")}
+            <Link href={`/${lng}/privacy-policy`}>
+              {t("footer__policy_privacy")}
+            </Link>
+          </div>
+          <div className="footer__policy_item">
+            <Link href={`/${lng}/footer__policy_cookies`}>
+              {t("footer__policy_cookies")}
+            </Link>
           </div>
         </div>
       </div>

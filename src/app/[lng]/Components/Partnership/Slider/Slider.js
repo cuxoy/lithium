@@ -8,12 +8,16 @@ import "swiper/css/pagination";
 
 import "./slider.scss";
 
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 export default function Slider() {
   return (
     <>
       <Swiper
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={2}
         spaceBetween={20}
         pagination={{
@@ -29,7 +33,7 @@ export default function Slider() {
         }}
         loop
         centeredSlides
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

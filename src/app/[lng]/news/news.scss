@@ -1,8 +1,12 @@
-.newsList {
+.news {
+  position: relative;
   min-height: 679px;
-  background: url(../../../../../public/images/team-news_noise.png);
-  padding-top: 110px;
+  padding-top: 140px;
   padding-bottom: 119px;
+  a {
+    text-decoration: underline;
+    color: blue;
+  }
 
   &__inner {
     height: 100%;
@@ -29,23 +33,28 @@
 
   &__item {
     display: flex;
+    flex-direction: column;
     align-items: center;
 
     &:not(:last-child) {
-      margin-bottom: 46px;
+      margin-bottom: 60px;
+      padding-bottom: 60px;
+      border-bottom: 2px solid #1964b5;
     }
 
     &_photo {
-      margin-right: 36px;
+      margin-bottom: 36px;
       img {
-        max-width: 256px;
+        max-width: 100%;
+        margin: 0 auto;
       }
     }
 
     &_content {
       display: flex;
       flex-direction: column;
-      max-width: 516px;
+      align-items: center;
+      max-width: 80vw;
     }
 
     &_date {
@@ -62,22 +71,34 @@
     &_title {
       font-family: var(--font-manrope);
       color: #33729b;
-      font-size: 20px;
+      font-size: 28px;
       font-style: normal;
       font-weight: 500;
-      line-height: 140%;
+      line-height: 160%;
     }
   }
-}
 
-.news__slider {
-  display: none;
+  .back {
+    font-family: var(--font-manrope);
+    color: #fff;
+    font-size: 28px;
+    padding: 10px;
+    background: #33729b;
+    border: 1px solid #33729b;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background: #104160;
+    }
+  }
 }
 
 @media (max-width: 1439px) {
   .newsList {
     min-height: 679px;
-    background: url(../../../../../public/images/team-news_noise.png);
     padding-top: 110px;
     padding-bottom: 119px;
 
@@ -138,16 +159,15 @@
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 140%;
+        line-height: 160%;
       }
     }
   }
 }
 
 @media (max-width: 767px) {
-  .newsList {
+  .news {
     min-height: 679px;
-    background: url(../../../../../public/images/team-news_noise.png);
     padding-top: 110px;
     padding-bottom: 19px;
 
@@ -198,32 +218,8 @@
 
       &_title {
         padding: 0 10px;
+        font-size: 20px;
       }
     }
-    .swiper {
-      max-height: 100%;
-      background: none;
-    }
-    .swiper-slide {
-      background: none;
-      img {
-        width: auto;
-        height: auto !important;
-        margin: 0 auto;
-        max-width: 256px;
-      }
-    }
-    .swiper-button-next {
-      top: 137px !important;
-    }
-    .swiper-button-prev {
-      top: 137px !important;
-    }
-  }
-  .no-mobile {
-    display: none;
-  }
-  .news__slider {
-    display: block;
   }
 }
