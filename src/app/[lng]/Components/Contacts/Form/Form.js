@@ -10,7 +10,7 @@ const Form = ({ lng }) => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [popUp, setPopUp] = useState(true);
+  const [popUp, setPopUp] = useState(false);
   const [formErrors, setFormErrors] = useState({
     name: "",
     phone: "",
