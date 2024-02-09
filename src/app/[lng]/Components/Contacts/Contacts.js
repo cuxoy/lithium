@@ -56,6 +56,11 @@ async function Contacts({ lng }) {
                 https://www.linkedin.com/company/ulicor/
               </Link>
             </div>
+            <div className="contacts__social">
+              <Link href="https://www.facebook.com/share/7LFDqyJvWe2KHm8H/?">
+                https://www.facebook.com/share/7LFDqyJvWe2KHm8H
+              </Link>
+            </div>
           </div>
           <div className="contacts__right">
             <Form lng={lng} />

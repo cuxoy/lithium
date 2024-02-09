@@ -89,6 +89,9 @@ async function Contacts({ lng }) {
           <Link href="https://www.linkedin.com/company/ulicor/">
             <img src="/images/social.png" alt="social image" />
           </Link>
+          <Link href="https://www.linkedin.com/company/ulicor/">
+            <img src="/images/social_2.png" alt="social image" />
+          </Link>
         </div>
         <div className="footer__policy mobile-only">
           <div className="footer__policy_item">

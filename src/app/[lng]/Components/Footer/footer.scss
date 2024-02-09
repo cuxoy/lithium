@@ -109,6 +109,16 @@
       }
     }
   }
+
+  &__social {
+    margin-bottom: 50px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    img {
+      max-width: 48px;
+    }
+  }
 }
 
 .mobile-only {
@@ -146,6 +156,12 @@
     }
     &__social {
       margin-bottom: 50px;
+      display: flex;
+      column-gap: 20px;
+      align-items: center;
+      img {
+        max-width: 48px;
+      }
     }
   }
   .mobile-only {
