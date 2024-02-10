@@ -33,7 +33,7 @@ async function Top({ lng }) {
 
               <div className="top__download">
                 <a
-                  href="/test.pdf"
+                  href="/GIGAFACTORY Pitch deck ULC .pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download

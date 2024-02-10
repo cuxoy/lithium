@@ -105,7 +105,7 @@ async function Contacts({ lng }) {
             </Link>
           </div>
           <div className="footer__policy_item">
-            <Link href={`/${lng}/footer__policy_cookies`}>
+            <Link href={`/${lng}/cookies-policy`}>
               {t("footer__policy_cookies")}
             </Link>
           </div>
