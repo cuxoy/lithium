@@ -24,7 +24,14 @@ export default function RootLayout({ children, params: { lng } }) {
       dir={dir(lng)}
       className={`${unbounded.variable} ${manrope.variable}`}
     >
-      <head />
+      {/* <head /> */}
+      <head>
+        <title>UKRAINIAN LITHIUM CORPORATION</title>
+        <meta
+          name="description"
+          content="ULC is a company that is working on Ukraine’s first “Gigafactory to meet the demand for battery cells for various EV and heavy-duty applications."
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
