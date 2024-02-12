@@ -31,13 +31,13 @@ export default async function Page({ params: { lng } }) {
               </div>
               <div className="news__item">
                 <div className="news__item_photo">
-                  <img src="/images/news_photo_3.png" alt="news image 1" />
+                  <img src="/images/news_photo_2.png" alt="news image 1" />
                 </div>
                 <div className="news__item_content">
                   <div
                     className="news__item_title"
                     dangerouslySetInnerHTML={{
-                      __html: t("news__text_3"),
+                      __html: t("news__text_2"),
                     }}
                   />
                 </div>
@@ -70,13 +70,13 @@ export default async function Page({ params: { lng } }) {
               </div>
               <div className="news__item">
                 <div className="news__item_photo">
-                  <img src="/images/news_photo_2.png" alt="news image 1" />
+                  <img src="/images/news_photo_3.png" alt="news image 1" />
                 </div>
                 <div className="news__item_content">
                   <div
                     className="news__item_title"
                     dangerouslySetInnerHTML={{
-                      __html: t("news__text_2"),
+                      __html: t("news__text_3"),
                     }}
                   />
                 </div>

@@ -31,15 +31,15 @@ async function NewsList({ lng }) {
             </div>
             <div className="newsList__item">
               <div className="newsList__item_photo">
-                <img src="/images/news_photo_3.png" alt="news image 1" />
+                <img src="/images/news_photo_2.png" alt="news image 1" />
               </div>
               <div className="newsList__item_content">
                 <div className="newsList__item_date">
-                  {t("newsList__item_3_date")}
+                  {t("newsList__item_2_date")}
                 </div>
                 <div className="newsList__item_title">
                   <Link href={`/${lng}/news`}>
-                    {t("newsList__item_3_title")}
+                    {t("newsList__item_2_title")}
                   </Link>
                 </div>
               </div>
@@ -76,15 +76,15 @@ async function NewsList({ lng }) {
             </div>
             <div className="newsList__item">
               <div className="newsList__item_photo">
-                <img src="/images/news_photo_2.png" alt="news image 1" />
+                <img src="/images/news_photo_3.png" alt="news image 1" />
               </div>
               <div className="newsList__item_content">
                 <div className="newsList__item_date">
-                  {t("newsList__item_2_date")}
+                  {t("newsList__item_3_date")}
                 </div>
                 <div className="newsList__item_title">
                   <Link href={`/${lng}/news`}>
-                    {t("newsList__item_2_title")}
+                    {t("newsList__item_3_title")}
                   </Link>
                 </div>
               </div>
