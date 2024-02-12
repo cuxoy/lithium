@@ -48,6 +48,9 @@ export default function Slider() {
         <SwiperSlide>
           <img src="/images/slide_4.jpg" alt="slide 4" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="/images/slide_5.png" alt="slide 4" />
+        </SwiperSlide>
         {/* <SwiperSlide>
           <img src="/images/slide_1.png" alt="slide 1" />
         </SwiperSlide>
