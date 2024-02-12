@@ -17,6 +17,9 @@ export default async function Page({ params: { lng } }) {
             <h3 className="news__title">{t("newsList__title")}</h3>
             <div className="news__list">
               <div className="news__item">
+                <div className="news__item_date">
+                  {t("newsList__item_1_date")}
+                </div>
                 <div className="news__item_photo">
                   <img src="/images/news_photo_1.png" alt="news image 1" />
                 </div>
@@ -30,6 +33,9 @@ export default async function Page({ params: { lng } }) {
                 </div>
               </div>
               <div className="news__item">
+                <div className="news__item_date">
+                  {t("newsList__item_2_date")}
+                </div>
                 <div className="news__item_photo">
                   <img src="/images/news_photo_2.png" alt="news image 1" />
                 </div>
@@ -43,6 +49,9 @@ export default async function Page({ params: { lng } }) {
                 </div>
               </div>
               <div className="news__item">
+                <div className="news__item_date">
+                  {t("newsList__item_4_date")}
+                </div>
                 <div className="news__item_photo">
                   <img src="/images/news_photo_4.png" alt="news image 1" />
                 </div>
@@ -56,6 +65,9 @@ export default async function Page({ params: { lng } }) {
                 </div>
               </div>
               <div className="news__item">
+                <div className="news__item_date">
+                  {t("newsList__item_5_date")}
+                </div>
                 <div className="news__item_photo">
                   <img src="/images/news_photo_5.png" alt="news image 1" />
                 </div>
@@ -69,6 +81,9 @@ export default async function Page({ params: { lng } }) {
                 </div>
               </div>
               <div className="news__item">
+                <div className="news__item_date">
+                  {t("newsList__item_3_date")}
+                </div>
                 <div className="news__item_photo">
                   <img src="/images/news_photo_3.png" alt="news image 1" />
                 </div>
