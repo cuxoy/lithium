@@ -29,8 +29,8 @@
   "partnership__text_3": "ULC is backed by a strong group of partners. Major industrial players in the energy and automotive sectors.",
 
   "technology__title": "our technology",
-  "technology__text_1": "At ULC, we’re working on developing a  <strong>new generation of sustainable, efficient batteries.</strong> Fast-charging, safe and affordable.</br>We are working on the development of sustainable, safer, and very competitive  <strong>novel battery technology</strong> with the best materials and cells <strong>for electric vehicles, heavy transport, and heavy-duty applications.</strong>",
-  "technology__text_2": "We are establishing a strong <strong>global network of R&D associates, industrial partners, and suppliers</strong> sharing our vision, and we’re gathering some of the best minds to make it happen.</br> IIt's giving us a firm base, and with relay on the novel technologies and the structure firmly in place, we can concentrate on innovating to develop ever-better products.",
+  "technology__text_1": "At ULC, we’re working on developing a  <strong>new generation of sustainable, efficient batteries that </strong>are fast-charging, safe and affordable.</br>We are working on the development of sustainable, safer, and very competitive  <strong>novel battery technology</strong> with the best materials and cells <strong>for electric vehicles, heavy transport, and heavy-duty applications.</strong>",
+  "technology__text_2": "We are establishing a strong <strong>global network of R&D associates, industrial partners, and suppliers</strong> sharing our vision, and we’re gathering some of the best minds to make it happen.</br> It's giving us a firm base, and with relay on the novel technologies and the structure firmly in place, we can concentrate on innovating to develop ever-better products.",
 
   "mission__subtitle": "who we are",
   "mission__title": "our mission & strategY",
@@ -48,10 +48,10 @@
 
   "mission__item3_title": "Ukraine mineral reserves opportunities",
   "mission__item3_text_1": "Unleashing the Ukrainian supply chain based on green energy, emission-free transport, and logistics solutions with leading principles of circular economy in production, will lead to large-scale green energy solutions application. ",
-  "mission__item3_text_2": "TThe raw materials base of Ukraine can meet the needs of the national industry as well as to facilitate its export potential, and the development of resilient value chains for critical minerals.",
+  "mission__item3_text_2": "The raw materials base of Ukraine can meet the needs of the national industry as well as to facilitate its export potential, and the development of resilient value chains for critical minerals.",
 
   "mission__item4_title": "Creating a comprehensive circle of production chain partners",
-  "mission__item4_text_1": "Through our <b>mutually beneficial relationship</b>  with partners, we are creating as many players as possible that will work with us in the production chain, from ore mining, ore processing, obtaining carbonates, hydroxide, or chloride lithium at hydrometallurgical enterprises to electrochemical production, and anodes and cathodes are producing, and the production of lithium-ion accumulators.",
+  "mission__item4_text_1": "Through our <b>mutually beneficial relationship</b>  with partners, we are creating as many players as possible that will work with us in the production chain, from ore mining, ore processing, obtaining carbonates, hydroxide, or chloride lithium at hydrometallurgical enterprises to electrochemical production, anodes and cathodes are producing, and the production of lithium-ion accumulators.",
 
   "benefits__subtitle": "why we are",
   "benefits__title": "our benefits",
@@ -64,8 +64,8 @@
   "benefits__item2_text": "Temporary VAT exemption (till 2026) for import and sale on the territory of Ukraine of electric and transport that uses gas or biogas",
   "benefits__item3_title": "Investment projects with significant investments",
   "benefits__item3_text": "The Law of Ukraine “On State Support for Investment Projects with Significant Investments in Ukraine” and accompanying legislation provides investment projects that meet the criteria established by the Law, state guarantees on stable legislation for 15 years, on compensation for losses caused by state bodies, as well as provides such investment projects with state support of up to 30% of amount of significant investments",
-  "benefits__item4_title": "Mineral resources abundance",
-  "benefits__item4_text": "Mineral resources abundance.Ukraine has deposits of 22 out of 34 minerals that are on the EU's list of critical minerals. Ukraine has traditionally been one of the top 10 countries in the production of titanium, manganese, zirconium, and graphite and has proven reserves of lithium, beryllium, rare earth elements, and nickel.",
+  "benefits__item4_title": "Mineral resources' abundance",
+  "benefits__item4_text": "Mineral resources' abundance. Ukraine has deposits of 22 out of 34 minerals that are on the EU's list of critical minerals. Ukraine has traditionally been one of the top 10 countries in the production of titanium, manganese, zirconium, and graphite and has proven reserves of lithium, beryllium, rare earth elements, and nickel.",
   "benefits__item5_title": "ESG standards compliance",
   "benefits__item5_text": "ULC is recognizing ESG standards and following all required standards regarding a company's commitment to environmental, social, and governance standards and best practices.",
 
@@ -111,11 +111,11 @@
 
   "contacts__subtitle": "need more information?",
   "contacts__title": "contact us",
-  "contacts__text_1": "<strong>ULC</strong> is looking for and open for cooperation with global and local leading partners to achieve our ambition as a supplier of efficient and clean battery cells and batteries elements solutions.",
+  "contacts__text_1": "<strong>ULC</strong> is looking for and open for cooperation with global and local leading partners to achieve our ambition as a supplier of efficient and clean battery cells and battery element solutions.",
   "contacts__text_2": "Please, if you are interested in this project or have any questions, <b>get in touch with us.</b> ",
   "contacts__item_1_name": "ARTEM TARAN ",
   "contacts__item_1_position": "Founder and CEO",
-  "contacts__item_1_mail": "info@ulicor.com",
+  "contacts__item_1_mail": "artemtaran1984@gmail.com",
   "contacts__item_2_name": "MYKOLA ALIYEV",
   "contacts__item_2_position": "Cofounder and Chief Development Officer",
   "contacts__item_2_mail": "nikolaialiev@gmail.com",
@@ -126,9 +126,11 @@
   "footer__policy_cookies": "Cookies Policy",
 
   "footer__contacts_title_phone": "Phone",
-  "footer__contacts_phone": "+41767429746",
+  "footer__contacts_phone": "+41795256580",
+  "footer__contacts_phone_2": "+380675316272",
   "footer__contacts_title_mail": "Email",
-  "footer__contacts_mail": "info@ulicor.com",
+  "footer__contacts_mail": "artemtaran1984@gmail.com",
+  "footer__contacts_mail_2": "nikolaialiev@gmail.com",
   "footer__contacts_title_adress": "Address",
   "footer__contacts_adress": "Mechnikova 4/1, 19-А, Kyiv, 01133, UA",
 

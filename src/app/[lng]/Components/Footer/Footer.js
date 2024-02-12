@@ -36,14 +36,22 @@ async function Contacts({ lng }) {
               <div className="footer__contacts_item_text">
                 <a href="tel:+41767429746">{t("footer__contacts_phone")}</a>
               </div>
+              <div className="footer__contacts_item_text">
+                <a href="tel:+380675316272">{t("footer__contacts_phone_2")}</a>
+              </div>
             </div>
             <div className="footer__contacts_item">
               <div className="footer__contacts_item_title">
                 {t("footer__contacts_title_mail")}
               </div>
               <div className="footer__contacts_item_text">
-                <a href="mailto:info@ulicor.com">
+                <a href="mailto:artemtaran1984@gmail.com">
                   {t("footer__contacts_mail")}
+                </a>
+              </div>
+              <div className="footer__contacts_item_text">
+                <a href="mailto:nikolaialiev@gmail.com">
+                  {t("footer__contacts_mail_2")}
                 </a>
               </div>
             </div>

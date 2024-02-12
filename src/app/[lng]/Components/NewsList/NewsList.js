@@ -31,21 +31,6 @@ async function NewsList({ lng }) {
             </div>
             <div className="newsList__item">
               <div className="newsList__item_photo">
-                <img src="/images/news_photo_2.png" alt="news image 1" />
-              </div>
-              <div className="newsList__item_content">
-                <div className="newsList__item_date">
-                  {t("newsList__item_2_date")}
-                </div>
-                <div className="newsList__item_title">
-                  <Link href={`/${lng}/news`}>
-                    {t("newsList__item_2_title")}
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="newsList__item">
-              <div className="newsList__item_photo">
                 <img src="/images/news_photo_3.png" alt="news image 1" />
               </div>
               <div className="newsList__item_content">
@@ -85,6 +70,21 @@ async function NewsList({ lng }) {
                 <div className="newsList__item_title">
                   <Link href={`/${lng}/news`}>
                     {t("newsList__item_5_title")}
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="newsList__item">
+              <div className="newsList__item_photo">
+                <img src="/images/news_photo_2.png" alt="news image 1" />
+              </div>
+              <div className="newsList__item_content">
+                <div className="newsList__item_date">
+                  {t("newsList__item_2_date")}
+                </div>
+                <div className="newsList__item_title">
+                  <Link href={`/${lng}/news`}>
+                    {t("newsList__item_2_title")}
                   </Link>
                 </div>
               </div>

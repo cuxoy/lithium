@@ -31,19 +31,6 @@ export default async function Page({ params: { lng } }) {
               </div>
               <div className="news__item">
                 <div className="news__item_photo">
-                  <img src="/images/news_photo_2.png" alt="news image 1" />
-                </div>
-                <div className="news__item_content">
-                  <div
-                    className="news__item_title"
-                    dangerouslySetInnerHTML={{
-                      __html: t("news__text_2"),
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="news__item">
-                <div className="news__item_photo">
                   <img src="/images/news_photo_3.png" alt="news image 1" />
                 </div>
                 <div className="news__item_content">
@@ -77,6 +64,19 @@ export default async function Page({ params: { lng } }) {
                     className="news__item_title"
                     dangerouslySetInnerHTML={{
                       __html: t("news__text_5"),
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="news__item">
+                <div className="news__item_photo">
+                  <img src="/images/news_photo_2.png" alt="news image 1" />
+                </div>
+                <div className="news__item_content">
+                  <div
+                    className="news__item_title"
+                    dangerouslySetInnerHTML={{
+                      __html: t("news__text_2"),
                     }}
                   />
                 </div>

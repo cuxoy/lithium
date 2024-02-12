@@ -32,7 +32,7 @@ async function Contacts({ lng }) {
                   {t("contacts__item_1_position")}
                 </div>
                 <div className="contacts__item_mail">
-                  <a href="mailto:info@ulicor.com">
+                  <a href="mailto:artemtaran1984@gmail.com">
                     {t("contacts__item_1_mail")}
                   </a>
                 </div>

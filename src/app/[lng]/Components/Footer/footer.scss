@@ -148,6 +148,10 @@
     &__policy {
       flex-direction: row;
       gap: 18px;
+
+      &_item {
+        font-size: 12px;
+      }
     }
 
     &__inner {
