@@ -18,7 +18,7 @@ export default function Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        slidesPerView={2}
+        slidesPerView={3}
         spaceBetween={20}
         pagination={{
           clickable: true,
@@ -46,6 +46,9 @@ export default function Slider() {
           <img src="/images/slide_3.png" alt="slide 3" />
         </SwiperSlide>
         <SwiperSlide>
+          <img src="/images/slide_4.jpg" alt="slide 4" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <img src="/images/slide_1.png" alt="slide 1" />
         </SwiperSlide>
         <SwiperSlide>
@@ -53,7 +56,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="/images/slide_3.png" alt="slide 3" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

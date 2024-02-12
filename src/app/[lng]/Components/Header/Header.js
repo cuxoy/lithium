@@ -28,7 +28,7 @@ function Header({ lng }) {
             <Link href="#mission_section">{t("header__mission")}</Link>
           </div>
           <div className="header__link">
-            <Link href="#mission_section">{t("header__benefits")}</Link>
+            <Link href="#benefits_section">{t("header__benefits")}</Link>
           </div>
           <div className="header__link">
             <Link href="#team_section">{t("header__team")}</Link>

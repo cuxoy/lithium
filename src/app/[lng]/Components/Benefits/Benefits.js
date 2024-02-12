@@ -6,9 +6,9 @@ async function Benefits({ lng }) {
   const { t } = await useTranslation(lng);
 
   return (
-    <section id="benefits_section" className="benefits">
+    <section className="benefits">
       <div className="benefits__container">
-        <div className="benefits__inner">
+        <div className="benefits__inner" id="benefits_section">
           <div className="benefits__left">
             <div className="benefits__subtitle">{t("benefits__subtitle")}</div>
             <h3 className="benefits__title">{t("benefits__title")}</h3>
